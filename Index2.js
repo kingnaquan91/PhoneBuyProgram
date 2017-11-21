@@ -55,7 +55,6 @@ function calcPrice(){
     
     if(totalPrice > accountBalance)
     {
-      alert("im in the IF LOOP"); //only goes into this FOR SOME REASON if account balance is 1000 or more
       //print message if you cannot afford this purchase
       console.log("Sorry, Insufficient Funds. Please try a different form of payment");
       break; //end program if there are insufficient funds   
